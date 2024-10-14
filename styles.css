@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    position: relative;
+    line-height: 50px;
+    z-index: 20;
+}
+
+section {
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.def {
+    position: relative;
+    width: 300px;
+    height: 50px;
+    padding-right: 30px;
+    font-weight: 500;
+    text-align: end;
+}
+
+.def::before {
+    position: absolute;
+    height: 50px;
+    width: 4px;
+    left: 62px;
+    content: "";
+    border-left: 3px solid hsla(0, 0%, 13%, 1);
+    border-right: 3px solid hsla(0, 0%, 13%, 1);
+    z-index: 11;
+}
+
+.def::after {
+    position: absolute;
+    height: 50px;
+    width: 130px;
+    right: 16px;
+    top: 0;
+    padding-right: 5px;
+    content: "";
+    background-color: hsl(0, 0%, 100%, 0.55);
+    box-shadow: 0 0 0.5px hsl(0, 0%, 100%, 0.55);
+    z-index: 10;
+}
+
+  
+  .red {
+    background-color: hsla(0, 100%, 50%, 1);
+    box-shadow: 0 0 20px hsla(0, 100%, 50%, 1);
+  }
+  
+  .green {
+    background-color: hsla(120, 100%, 25%, 1);
+    box-shadow: 0 0 20px hsla(120, 100%, 25%, 1);
+  }
+  
+  .blue {
+    background-color: hsla(240, 99%, 50%, 1);
+    box-shadow: 0 0 20px hsla(240, 99%, 50%, 1);
+  }
+  
+  .lightrose {
+    background-color: hsla(352, 90%, 71%, 1);
+    box-shadow: 0 0 20px hsla(352, 90%, 71%, 1);
+  }
+  
+  .cyan {
+    background-color: hsla(180, 100%, 50%, 1);
+    box-shadow: 0 0 20px hsla(180, 100%, 50%, 1);
+  }
+  
+  .yellow {
+    background-color: hsla(60, 100%, 50%, 1);
+    box-shadow: 0 0 20px hsla(60, 100%, 50%, 1);
+  }
+  
+  .magenta {
+    background-color: hsla(300, 100%, 50%, 1);
+    box-shadow: 0 0 20px hsla(300, 100%, 50%, 1);
+  }
+  
+  .black {
+    background-color: hsla(300, 100%, 0%, 1);
+    box-shadow: 0 0 20px hsla(300, 100%, 0%, 1);
+  }
+  
+  .gray {
+    background-color: gray;
+    box-shadow: 0 0 20px gray;
+  }
+
+  .purple {
+    background-color: purple;
+    box-shadow: 0 0 20px purple;
+  }
+  
+  .brown {
+    background-color: brown;
+    box-shadow: 0 0 20px brown;
+  }
+  
+  .orange {
+    background-color: orange;
+    box-shadow: 0 0 20px orange;
+  }
+
+  .lightslategray {
+    background-color: lightslategray;
+    box-shadow: 0 0 20px lightslategray;
+  }
+
+  .linen {
+    background-color: linen;
+    box-shadow: 0 0 20px linen;
+  }
+
+  .pink {
+    background-color: pink;
+    box-shadow: 0 0 20px pink;
+  }
+
+  .gold {
+    background-color: gold;
+    box-shadow: 0 0 20px gold;
+  }
